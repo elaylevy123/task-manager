@@ -1,24 +1,11 @@
 # Task Manager Project
 
-הפרויקט "Task Manager" הוא אפליקציה לניהול משימות, המורכבת משני צדדים:
-1. **צד לקוח** - מבוסס על **React** ומנהל את ממשק המשתמש.
-2. **צד שרת** - מבוסס על **Node.js**, **Express** ו-**MySQL** ומנהל את החיבור למסד הנתונים והלוגיקה העסקית.
+Welcome to the **Task Manager** project! This project is a simple application designed to manage tasks, built with a **React** frontend and a **Node.js** backend. Users can add, edit, and delete tasks, making it a perfect tool for task management.
 
-הפרויקט מאפשר למשתמשים ליצור, לערוך ולמחוק משימות.
+## Project Structure
 
-## טכנולוגיות בשימוש
+The project is divided into two main parts:
 
-### צד לקוח:
-- **React**: ספריית JavaScript לבניית ממשק משתמש דינמי ותגובתי.
-- **Axios/Fetch**: משמשים לשלוח בקשות HTTP לשרת.
-  
-### צד שרת:
-- **Node.js**: פלטפורמת JavaScript לבניית שרתים צדדיים.
-- **Express**: מסגרת עבודה עבור Node.js לפיתוח אפליקציות אינטרנט.
-- **MySQL**: מסד נתונים רלציוני לאחסון המשימות.
-- **Sequelize**: ORM עבור MySQL, המספק שכבת גישור בין הנתונים במסד הנתונים לבין האובייקטים בקוד JavaScript.
-
-## מבנה הפרויקט
-
-הפרויקט בנוי משני תתי-פרויקטים: צד לקוח (React) וצד שרת (Node.js).
+1. **Frontend**: Built with **React** to handle the user interface.
+2. **Backend**: Built with **Node.js**, **Express**, and **MySQL** to manage data and API routes.
 
